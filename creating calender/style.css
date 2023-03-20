@@ -1,0 +1,27 @@
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows:30px repeat(5,75px);
+    row-gap: 20px;
+    column-gap: 20px;
+    
+    
+}
+.date, .day{
+    border: 2px solid;
+    background-color: aquamarine;
+    font-size: 2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.other-month{
+    background-color:gainsboro;
+}
+.day{
+    font-size: 1.5em;
+    background-color: cadetblue;
+}
