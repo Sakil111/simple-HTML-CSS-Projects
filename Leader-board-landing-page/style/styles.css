@@ -67,3 +67,38 @@ hr{
     height: 104px;
     
 }
+.course-info{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.course-duration{
+    background-color:#FF4A60;
+    border-radius: 20px;
+    padding: 3px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.field{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+
+/* media Query style */
+@media only screen and (max-width:688px) {
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .top-blog, .courses{
+        display: none;
+    }
+}
