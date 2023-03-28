@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color:  #E5E5E5;
+    padding-left: 285px;
+    padding-right: 285px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    ;
+}
+.common-header{
+    color:#562EFF;
+}
+
+/* header section style */
+.player-section{
+    background-color:#FFFFFF;
+    padding: 33px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    
+}
+.player img{
+    height: 56px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: #D1D1D1 1px solid ;
+}
