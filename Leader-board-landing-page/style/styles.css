@@ -8,15 +8,15 @@ body{
     font-family: 'Work Sans', sans-serif;
     ;
 }
-.common-header{
+.blue{
     color:#562EFF;
 }
-
-/* header section style */
-.player-section{
+header{
     background-color:#FFFFFF;
     padding: 33px;
+
 }
+/* header section style */
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -36,4 +36,34 @@ hr{
     margin-top: 30px;
     margin-bottom: 30px;
     border: #D1D1D1 1px solid ;
+}
+/* blog section */
+.top-blog{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 30px;
+}
+.blog{
+    display: flex;   
+}
+.blog img{
+    width: 224px;
+    height: 127px;
+    margin-right: 16px; 
+}
+
+/* course style */
+.courses{
+    margin-top: 22px;
+    margin-bottom: 22px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color:#FFFFFF;
+    padding: 33px;
+    column-gap: 26px;
+}
+.course img{
+    width: 224px;
+    height: 104px;
+    
 }
